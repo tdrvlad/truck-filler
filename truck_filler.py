@@ -225,7 +225,7 @@ class TruckFiller:
             for truck in self.trucks:
                 border = 20
                 font = ImageFont.truetype("arial.ttf", 15)
-                image = Image.new("RGB", (truck.length * ratio + 2 * border, truck.width * ratio + 2 * border), (255, 255, 255))
+                image = Image.new("RGB", (int(truck.length * ratio + 2 * border), int(truck.width * ratio + 2 * border)), (255, 255, 255))
                 draw = ImageDraw.Draw(image)   
 
                 # Draw the truck
