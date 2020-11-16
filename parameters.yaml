@@ -1,0 +1,22 @@
+# TRUCK
+
+# (Values have to be in the same measuring unit as package dimensions)
+
+truck_length : 63
+truck_width : 11
+max_weight_per_truck : 40000
+space_between_boxes_percentage_from_truck_length : 0.002
+
+
+# EXCEL COLUMN NAMES
+
+box_identification_column_name : 'Package#'
+quantity_column_name : 'Quantity'
+package_weight_column_name : 'Weight lbs'
+
+dimensions_column_name : 'Dimensions feets '
+dimension_l_column_name : 'L'
+dimension_w_column_name : 'W'
+
+
+
